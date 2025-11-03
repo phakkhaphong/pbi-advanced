@@ -1,0 +1,259 @@
+table DimDate
+	lineageTag: 3adb11f5-8635-402d-aff1-1c9cc62b049d
+	dataCategory: Time
+
+	column DateKey
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: bb7c2603-81e3-40e7-9e2e-8bb53e4f48d8
+		summarizeBy: none
+		sourceColumn: DateKey
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column FullDateAlternateKey
+		dataType: dateTime
+		isHidden
+		isKey
+		formatString: Long Date
+		lineageTag: 23c9f1e0-3eb7-4843-afe6-eeead263d029
+		summarizeBy: none
+		sourceColumn: FullDateAlternateKey
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column DayNumberOfWeek
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 7f76110b-d802-4867-87e8-f869ec85f5e5
+		summarizeBy: none
+		sourceColumn: DayNumberOfWeek
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column EnglishDayNameOfWeek
+		dataType: string
+		isHidden
+		lineageTag: 26b6cf8c-371f-4396-a77f-8ba59835e543
+		summarizeBy: none
+		sourceColumn: EnglishDayNameOfWeek
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column SpanishDayNameOfWeek
+		dataType: string
+		isHidden
+		lineageTag: 96b8b437-8da9-46b9-8537-34724c36d974
+		summarizeBy: none
+		sourceColumn: SpanishDayNameOfWeek
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column FrenchDayNameOfWeek
+		dataType: string
+		isHidden
+		lineageTag: 55d1b6f3-1de2-41ce-8760-363fb5acd89d
+		summarizeBy: none
+		sourceColumn: FrenchDayNameOfWeek
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column DayNumberOfMonth
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: af27b93e-d60c-48ba-b313-93a2f8223b98
+		summarizeBy: none
+		sourceColumn: DayNumberOfMonth
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column DayNumberOfYear
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 6dbf0a40-2ed9-495c-82ea-95555588ee7f
+		summarizeBy: none
+		sourceColumn: DayNumberOfYear
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column WeekNumberOfYear
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 2ebe7947-1fc3-4dbc-a603-772fe7ae4475
+		summarizeBy: none
+		sourceColumn: WeekNumberOfYear
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column EnglishMonthName
+		dataType: string
+		isHidden
+		lineageTag: eb70aa21-9c79-4116-a8bd-ecd9ab50778b
+		summarizeBy: none
+		sourceColumn: EnglishMonthName
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column SpanishMonthName
+		dataType: string
+		isHidden
+		lineageTag: 5af8e2b8-59fb-4cf7-a0ab-9da7b13c2662
+		summarizeBy: none
+		sourceColumn: SpanishMonthName
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column FrenchMonthName
+		dataType: string
+		isHidden
+		lineageTag: c02eaab0-c8c4-4e23-a30f-331d280356e3
+		summarizeBy: none
+		sourceColumn: FrenchMonthName
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column MonthNumberOfYear
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 501744fc-2dd8-4d99-a42b-0c1ea66d8287
+		summarizeBy: none
+		sourceColumn: MonthNumberOfYear
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column CalendarQuarter
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: bc2cedf0-92a9-479f-90a9-1e559440c20a
+		summarizeBy: none
+		sourceColumn: CalendarQuarter
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column CalendarYear
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 93a76ec7-74a5-49d8-a291-4ec6e1891781
+		summarizeBy: none
+		sourceColumn: CalendarYear
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column CalendarSemester
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 363e7349-df30-4f6b-949a-b43a30c1e27d
+		summarizeBy: none
+		sourceColumn: CalendarSemester
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column FiscalQuarter
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 509a83ea-fc67-408c-86a1-eeceac28bedc
+		summarizeBy: none
+		sourceColumn: FiscalQuarter
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column FiscalYear
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: b7293c0d-18f8-4537-ad45-8cb395460e0d
+		summarizeBy: none
+		sourceColumn: FiscalYear
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column FiscalSemester
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: d386fc98-cb5b-40ad-a004-77a2ef39302e
+		summarizeBy: none
+		sourceColumn: FiscalSemester
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	hierarchy 'Calendar -YQMD'
+		lineageTag: 1f9df2f5-a425-4d65-bbfc-61c75cf89862
+
+		level Year
+			lineageTag: 6420d76d-c00c-468c-a362-149f5fd27044
+			column: CalendarYear
+
+		level Quarter
+			lineageTag: b569d25e-f1f7-476c-a875-5f48da5209e8
+			column: CalendarQuarter
+
+		level Month
+			lineageTag: 43144e87-4476-4d00-ba22-b615723df287
+			column: EnglishMonthName
+
+		level Day
+			lineageTag: 97331796-7d99-4e6d-8da6-61f3cd4fb1a0
+			column: FullDateAlternateKey
+
+	partition DimDate = m
+		mode: import
+		source =
+				let
+				    Source = Sql.Database("ake.database.windows.net", "AdventureworksDW"),
+				    dbo_DimDate = Source{[Schema="dbo",Item="DimDate"]}[Data]
+				in
+				    dbo_DimDate
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,20 @@
+relationship 5282dddd-a03e-4d0a-acd2-17ca24aaeef8
+	isActive: false
+	fromColumn: FactInternetSales.DueDateKey
+	toColumn: DimDate.DateKey
+
+	annotation PBI_IsFromSource = FS
+
+relationship beee5071-7d6e-47f3-ab40-7e8781fc03b0
+	fromColumn: FactInternetSales.OrderDateKey
+	toColumn: DimDate.DateKey
+
+	annotation PBI_IsFromSource = FS
+
+relationship 355147a4-7d6a-4ecc-b8bf-b62d72b7a426
+	isActive: false
+	fromColumn: FactInternetSales.ShipDateKey
+	toColumn: DimDate.DateKey
+
+	annotation PBI_IsFromSource = FS
+
